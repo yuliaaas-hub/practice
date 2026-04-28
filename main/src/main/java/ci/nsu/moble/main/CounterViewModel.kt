@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.update
 class CounterViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(MyUiState())
     val uiState: StateFlow<MyUiState> = _uiState.asStateFlow()
-
+// agfgssfs
 
     fun increment() {
         _uiState.update { currentState ->

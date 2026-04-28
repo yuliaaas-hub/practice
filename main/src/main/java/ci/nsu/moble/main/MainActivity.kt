@@ -18,7 +18,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import ci.nsu.moble.main.ui.theme.PracticeTheme
 
-
+// jygdye
 
 @Composable
 fun MyScreen(
