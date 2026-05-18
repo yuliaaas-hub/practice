@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/usersFragment"
+        android:title="Пользователи"
+        android:icon="@android:drawable/ic_menu_myplaces"/>
+    <item
+        android:id="@+id/calculationsFragment"
+        android:title="Мои расчёты"
+        android:icon="@android:drawable/ic_menu_recent_history"/>
+    <item
+        android:id="@+id/newCalcFragment"
+        android:title="Новый расчёт"
+        android:icon="@android:drawable/ic_menu_add"/>
+</menu>

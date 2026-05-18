@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calculationsFragment">
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="ci.nsu.mobile.main.ui.users.UsersFragment"
+        android:label="Пользователи"/>
+
+    <fragment
+        android:id="@+id/calculationsFragment"
+        android:name="ci.nsu.mobile.main.ui.calc.CalculationsFragment"
+        android:label="Мои расчёты"/>
+
+    <fragment
+        android:id="@+id/newCalcFragment"
+        android:name="ci.nsu.mobile.main.ui.newcalc.NewCalcFragment"
+        android:label="Новый расчёт"/>
+
+</navigation>
